@@ -4,6 +4,7 @@ namespace RetroPixels.Models
 {
     public class About
     {
+        [Key]
         public int Id { get; set; }
         public string? ImageURL { get; set; }
         [Required]
